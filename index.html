@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="./styles.css" rel="stylesheet">
+</head>
+<main id="main-doc">
+   <body>
+
+
+<!--01--> 
+
+
+
+
+
+
+
+
+<div class="grid1">
+<div class="grid1contentlink">
+<div class="border2">  
+<div class="border3">
+<h3>CSS Documentation
+Introduction</h3>
+</div>
+<nav id="navbar">
+<ul>
+    <div class="border3">
+    <li><a href="#what_is_css?">What is CSS?</a></li>
+    </div>
+      <div class="border3">
+    <li><a href="#css_syntax">Syntax</a></li>
+        </div>
+      <div class="border3">
+    <li><a href="#CSS_modules">Modules</a></li>
+        </div>
+      <div class="border3">
+    <li><a href="#CSS_specifications">Specifications</a></li>
+        </div>
+      <div class="border3">
+    <li><a href="#Browser_support_information">Browser Support Infomation</a></li>
+    </div>
+<div class="border3">    
+     <li><a href="#credits">References</a></li>
+     </div>
+</ul>
+</nav>
+ </div>
+  </div>
+
+
+
+
+
+
+<div class="grid1content">
+<section id="what_is_css?" class="main-section">
+  <header>WHAT IS CSS?</header>
+<p>CSS (Cascading Style Sheets) is a language for specifying how documents are presented to users — how they are styled, laid out, etc...</p>
+
+<p>A document is usually a text file structured using a markup language — <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML" target="_blank"> <code>HTML</code></a> is the most common markup language, but you may also come across other markup languages such as <a href="https://developer.mozilla.org/en-US/docs/Glossary/SVG" target="_blank"><code>SVG</code></a> or <a href="https://developer.mozilla.org/en-US/docs/Glossary/XML" target="_blank"><code>XML</code></a>.</p>
+
+<p>Presenting a document to a user means converting it into a form usable by your audience. Browsers are designed to present documents visually, for example, on a computer screen, projector, or printer.</p>
+
+<p>CSS can be used for very basic document text styling — for example, for changing the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value" target="_blank"><code>color</code></a> and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-size" target="_blank"><code>size</code></a> of headings and links. It can be used to create a layout - <b>e.g:</b> <i><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Column_layouts" target="_blank"><code>turning a single column of text into a layout with a main content area and a sidebar for related information</code>.</a></i> It can even be used for effects such as <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations" target="_blank"><code>animation</code>.</a></p>
+</div>
+</div>
+<!--01 END-->
+
+<!--02-->
+<div class="grid1">
+<div class="grid2content">
+ <section id="css_syntax" class="main-section">
+   <header>CSS SYNTAX</header>
+   <p>CSS is a rule-based language — you define the rules by specifying groups of styles that should be applied to particular elements or groups of elements on your web page.</p>
+  <p>For example, you can decide to have the main heading on your page to be shown as large red text. The following code shows a very simple CSS rule that would achieve the styling described above: </p>
+<div class="border">
+<h4>h1 {</h4>
+  <h4>color: red;</h4>
+   <h4>font-size: 5rem;</h4>
+   <h4>}</h4>
+</div>
+</div>
+</div>
+<!--02 END-->
+
+<!--03-->
+<div class="grid1">
+<div class="grid3content">
+<section id="CSS_modules" class="main-section">
+   <header>CSS MODULES</header>
+   <p>As there are so many things that you could style using CSS, the language is broken down into modules. Many of the documentation pages are organized around a particular module. For example, you could take a look at the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders" target="_blank"> <code>Backgrounds and Borders</code></a> module to find out what its purpose is and the properties and features it contains. So, if you need to look at some specific thing, search for it, one of the most common things in the programming world is: you will always use google for something. </p>
+    </div>
+    </div>
+ <!--03 END-->
+
+
+
+
+
+<!--04-->
+<div class="grid1">
+<div class="grid4content">
+<section id="CSS_specifications" class="main-section">
+   <header>CSS SPECIFICATIONS</header>
+   <p>All web standards technologies (<a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML" target="_blank"><code>HTML</code></a>, <code>CSS</code>, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><code>JavaScript</code></a>, etc.) are defined in giant documents called specifications (or "specs"), which are published by standards organizations (such as the <a href="https://www.w3.org/" target="_blank"><code>W3C</code>, <a href="https://whatwg.org/" target="_blank"><code>WHATWG</code></a>, <a href="https://www.ecma-international.org/" target="_blank"><code>ECMA</code></a>, or <a href="https://www.khronos.org/" target="_blank"><code>Khronos</code></a>) and define precisely how those technologies are supposed to behave.</a></p>
+
+  <p>CSS is no different — it is developed by a group within the W3C called the <a href="https://www.w3.org/Style/CSS/" target="_blank"><code>CSS Working Group</code></a>. This group is made of representatives of browser vendors and other companies who have an interest in CSS. There are also other people, known as invited experts, who act as independent voices; they are not linked to a member organization.</p>
+   <p>New CSS features are developed or specified by the CSS Working Group — sometimes because a particular browser is interested in having some capability, other times because web designers and developers are asking for a feature, and sometimes because the Working Group itself has identified a requirement. CSS is constantly developing, with new features becoming available. However, a key thing about CSS is that everyone works very hard to never change things in a way that would break old websites. A website built in 2000, using the limited CSS available then, should still be usable in a browser today!</p>
+<p>As a newcomer to CSS, it is likely that you will find the CSS specs overwhelming — they are intended for engineers to use to implement support for the features in user agents, not for web developers to read to understand CSS. Many experienced developers would much rather refer to MDN documentation or other tutorials. Nevertheless, it is worth knowing that these specs exist and understanding the relationship between the CSS you are using, the browser support, and the specs.</p>
+   </div>
+   </div>
+ <!--04 END-->
+
+
+
+
+
+
+<!--05-->
+<div class="grid1">
+<div class="grid5content">
+<section id="Browser_support_information" class="main-section">
+ <header>BROWSER SUPPORT INFORMATION</header>
+ <p>After a CSS feature has been specified, then it is only useful for us in developing web pages if one or more browsers have implemented the feature. This means that the code has been written to turn the instruction in our CSS file into something that can be output to the screen. <i>If you wanna know more about CSS, then:  <code><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works" target="_blank">How CSS works</code></i></a>.</p> 
+ <p>It is unusual for all browsers to implement a feature at the same time, and so there is usually a gap where you can use some part of CSS in some browsers and not in others. For this reason, being able to check implementation status is useful</p>
+
+ <p>The browser support status is shown on every MDN CSS property page in a table named "Browser compatibility". Consult the information in that table to check if the property can be used on your website. For an example, see the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-family#browser_compatibility" target="_blank"> browser compatibility table for the CSS <code>font-family</code> property.</a></p>
+<p>Based on your requirements, you can use the browser compatibility table to check how this property is supported across various browsers, or check if your specific browser and the version you have support the property, or if there are any caveats you should be aware of for the browser and version you are using.</p> 
+  </div>
+ </div>
+<!--05 END-->
+
+<!--05-->
+<div class="grid1">
+<div class="grid5content">
+<section id="credits" class="main-section">
+ <header>REFERENCES</header>
+<p>All the documentation in this page is taken from 
+  <a href="https://developer.mozilla.org/en-US/plus" target="_blank">MDN.</a>
+
+
+  </div>
+ </div>
+
+
+
+
+</body>
+<div class="grid1">
+  <div class="grid5content">
+<footer>
+  <p> Made by Eric P. as a freeCodeCamp project.
+    <ul>
+    <li><a  href="https://github.com/EricNRM" target="_blank"><img id="jpg1" src="images/github.png"></a></li>
+    <li><a  href="https://www.linkedin.com/in/%C3%A9ric-pablo-a727a9262/" target="_blank"><img id="jpg1" src="images/linkedin.png"></a></li>
+   </ul>
+  </footer>
+  </div>
+</main>
+  </html>
